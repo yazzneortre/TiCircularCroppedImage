@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Circle crop image
+author: Yazzne Ortre
+license: Specify your license
+copyright: Copyright (c) 2017 by Your Company
+
+# these should not be edited
+name: circlecCrop
+moduleid: metavi.iphone.circlecrop
+guid: 03a2c09e-e651-4610-8ecb-3648b7b15987
+platform: iphone
+minsdk: 6.0.0.GA
