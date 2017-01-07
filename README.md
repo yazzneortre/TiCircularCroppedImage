@@ -11,11 +11,11 @@ Import the module in your code with:
 var imageEditor = require("metavi.iphone.circlecrop");
 ```
 
-then create an instance with and open the editor:
+then create an instance and open the editor:
 
 ```js
 var cropper = imageEditor.createImageEditor();
-openCircleCrop();
+cropper.openCircleCrop();
 ```
 
 It is not necessary pass image, this uses the native image picker.
